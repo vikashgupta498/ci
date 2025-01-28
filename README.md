@@ -7,6 +7,7 @@ Nexus for artifact management, and Docker for containerizing the application.
 Once deployed, we will monitor the application using Prometheus, Blackbox Exporter, and visualize it with Grafana.
 I integrated Email notification script using Groovy to send alerts when the pipeline fails or succeeds. 
 ```
+![369640780-837ea1ca-f69e-40a1-b4ee-15ace4dc3892](https://github.com/user-attachments/assets/b9383456-839c-49a9-be48-016f653332be)
 
 
 
@@ -14,30 +15,6 @@ I integrated Email notification script using Groovy to send alerts when the pipe
 
 ### Project Structure.
 
-``` 
-/full-stack-blogging-app
-├── /ci-scripts
-│   ├── install_jenkins.sh
-│   ├── install_docker.sh
-│   ├── install_blackbox.sh
-│   ├── prometheus.yml
-│   └── grafana_dashboard.json
-├── /kubernetes
-│   ├── deployment.yml
-│   ├── service.yml
-│   ├── role.yaml
-│   ├── rolebinding.yaml
-│   └── serviceaccount.yaml
-├── /terraform
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-├── /src
-│   ├── app.js
-│   ├── Dockerfile
-│   └── ...
-├── README.md
-```
 
 ---
 
